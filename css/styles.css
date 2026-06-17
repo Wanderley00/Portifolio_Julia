@@ -154,28 +154,14 @@ nav.solid{
 }
 .eyebrow-line{width:32px;height:1px;background:var(--rose)}
 .hero-h1{
-  font-family:'Bodoni Moda', 'Didot', serif;
+  font-family:'Cormorant Garamond',serif;
   font-size:clamp(3.5rem,5.5vw,7rem);
-  font-weight:400;line-height:.95;letter-spacing:-.03em;color:#CD9C9A;
+  font-weight:400;line-height:.95;letter-spacing:-.03em;color:var(--ink);
   opacity:0;transform:translateY(40px);animation:fadeUp 1s .6s var(--ease-out-expo) forwards;
 }
-.hero-h1 em.line2{
-  display:block;
-  padding-left:2.5rem;
-  color:#C59B8A;
-  font-family:'Montserrat', sans-serif;
-  font-style:normal;
-  font-weight:500;
-  text-transform:uppercase;
-  letter-spacing:0.15em;
-  font-size:0.48em;
-}
-.hero-h1 .line3{
-  display:block;
-  padding-left:1rem;
-  font-family:'Cormorant Garamond', serif;
-  color:#CD9C9A;
-}
+.hero-h1 em{font-style:italic;color:var(--rose)}
+.hero-h1 .line2{display:block;padding-left:2.5rem}
+.hero-h1 .line3{display:block;padding-left:1rem}
 .hero-sub{
   font-size:0.95rem;font-weight:300;line-height:1.6;color:var(--ink2);
   max-width:38ch;margin-top:1.5rem;
